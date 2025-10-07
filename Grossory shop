@@ -1,0 +1,14 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        double rs=sc.nextDouble();
+        double hra=0.15 *rs;
+        double da=0.90*rs;
+        double gross_salary= rs+hra+da;
+        System.out.printf("%.2f",gross_salary);
+    }
+}
